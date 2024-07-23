@@ -16,7 +16,7 @@ body {
     background: hsl(0, 0%, 98%);
     font-family: "Poppins", sans-serif;
 }
-article {
+main {
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -61,8 +61,9 @@ p.subtitle {
     border-radius: 7px;
     padding: 25px;
 }
-.card h5 {
+.card h2 {
     color: hsl(234, 12%, 34%);
+    font-size: 0.85rem;
 }
 .card p {
     font-size: 12px;
@@ -93,20 +94,21 @@ p.subtitle {
 
 /* =========================== MEDIA QUERIES(MEDIUM DEVICES)==============================*/
 @media screen and (max-width: 1024px) {
-    article {
+    main {
         margin: 0 auto;
         max-width: 90%;
     }
     .card-box {
-        flex-direction: row;
+        flex-direction: column;
     }
+
 
 }
 
 
 /* =========================== MEDIA QUERIES(SMALL DEVICES)==============================*/
 @media screen and (max-width: 375px) {
-    article {
+    main {
         max-width: 360px;
 
     }
